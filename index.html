@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head><script src="daysAlive.js"></script><title>How Many days have you been alive for?</title></head>
+<style>body {background-color: white;}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  text-align: center;
+}
+div{ border-style: inset;
+padding: 8px;
+text-align: center;
+}
+form {
+  font-family: courier;
+  font-size: 18px;
+ 
+}
+
+button {
+	 padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  border-radius: 30px;
+}</style>
+<body>
+<h1>Days Alive</h1>
+<div id="days">
+ 
+        Date of Birth: <input id="dob" type="date" /> <br />
+		<br />
+       
+        <button onclick="getDaysAlive()">Click me!</button>
+   
+
+</div>
+
+<div>
+<p id ="results"> </p></div></body>
+</html> 
